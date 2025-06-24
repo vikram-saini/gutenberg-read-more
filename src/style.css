@@ -1,0 +1,37 @@
+/**
+ * Frontend styles for DMG Read More block
+ */
+
+/* Main block paragraph */
+.dmg-read-more {
+    margin: 1em 0;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-left: 4px solid #0073aa;
+    font-size: 16px;
+}
+
+.dmg-read-more a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.dmg-read-more a:hover {
+    color: #005177;
+    text-decoration: underline;
+}
+
+.dmg-read-more a:focus {
+    outline: 2px solid #0073aa;
+    outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .dmg-read-more {
+        padding: 12px;
+        font-size: 15px;
+    }
+}

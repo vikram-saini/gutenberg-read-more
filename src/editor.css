@@ -1,0 +1,135 @@
+/**
+ * Editor styles for DMG Read More block
+ */
+
+/* Search container */
+.dmg-read-more-search {
+    margin-bottom: 15px;
+}
+
+.dmg-read-more-search .components-text-control__input {
+    margin-bottom: 10px;
+}
+
+/* Loading spinner */
+.dmg-read-more-loading {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Search results */
+.dmg-read-more-results {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 5px;
+    border:none;
+    max-width: 100%;
+    white-space: unset !important;
+}
+
+/* Custom scrollbar for results */
+.dmg-read-more-results::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dmg-read-more-results::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dmg-read-more-results::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.dmg-read-more-results::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.dmg-read-more-results h4 {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dmg-read-more-result {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height: auto;
+    min-height: 36px;
+    padding: 8px 12px;
+    line-height: 1.4;
+}
+
+.dmg-read-more-result.selected {
+    background-color: #007cba;
+    color: white;
+}
+
+.dmg-read-more-result.selected:hover {
+    background-color: #005a87;
+    color: white;
+}
+
+/* Pagination */
+.dmg-read-more-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.dmg-read-more-pagination span {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Selected post display */
+.dmg-read-more-selected {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.dmg-read-more-selected h4 {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dmg-read-more-selected p {
+    margin: 0;
+    font-size: 13px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Editor preview */
+.dmg-read-more-editor {
+    padding: 15px;
+    border: 1px dashed #ccc;
+    background-color: #fafafa;
+}
+
+.dmg-read-more-editor p {
+    margin: 0;
+}
+
+.dmg-read-more-placeholder {
+    color: #666;
+    font-style: italic;
+}
+
+/* Main block in editor */
+.wp-block-dmg-read-more {
+    margin: 0;
+}
