@@ -23,7 +23,7 @@ A WordPress plugin that provides a Gutenberg block for inserting stylized post l
 1. Clone this repository into your WordPress plugins directory:
    ```bash
    cd wp-content/plugins
-   git clone https://github.com/yourusername/dmg-read-more.git
+   git clone https://github.com/vikram-saini/gutenberg-read-more.git
    cd dmg-read-more
    ```
 
